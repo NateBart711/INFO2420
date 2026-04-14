@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+	
+	<link rel="stylesheet" href="Mystyles.css" type="text/css">
+	
+	<script></script>
+	
+	<script type="text/javascript" src="Myscripts.js" ></script>
+	
+</head>
+
+<body  onload="preloadImages()">
+	<header>
+		<a href="index.html" onMouseOver="document.logo.src=logo2.src;"
+			onMouseOut="document.logo.src=logo1.src;">
+
+		<img src="Images/logo1.jpg" width="150" height="175" 
+			name="logo" alt="logo" style="border:none;" class="logoleft"/>
+
+		</a>
+		<img src="Images/banner.jpg" alt="Pet Banner" width="600" height="175">
+	</header>
+	
+	<section>
+			<nav>
+				<a href="Home.html">Home Page</a><br>
+				<a href="aboutus.html">About Us &nbsp;&nbsp;</a><br>
+				<a href="Tributes.html">Tributes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="favorites.html">My Favorites</a><br>
+				<a href="survey.html">Survey Page&nbsp;</a>
+			</nav>
+		
+			<article>
+				
+				<h1>Welcome to Rent A Pet!</h1>
+				<p class="bigger">If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey.
+				</p>
+				
+				<div id="thumbs">
+					<img src="Images/thumbnails/Image1Sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);" />
+					<img src="Images/thumbnails/Image2Sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);" />
+					<img src="Images/thumbnails/Image3Sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);" />
+					<img src="Images/thumbnails/Image4Sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);" />
+		
+			    </div>
+	
+				<div id="image">
+
+					<img id="theImage" src="Images/fullsize/Image1Lg.jpg" alt="Dog doing trick" />
+					<h3 id="bottomText">Dog doing trick</h3>
+				</div>
+				<hr>
+				<h2>What Our Customers Have Been Saying</h2>
+				<img src="images/Horse2Sm.jpg" alt="Horse" class="auto-style1" width="130">
+				<p class="bigger">As a young girl, I developed a love of horses.  But I grew up in the city and never had the chance to own my own horse.  I was delighted to find Rent A Pet.<a href="Tributes.html">more...</a></p>
+			
+			</article>
+	
+	</section>
+	
+	<footer>
+			<p> Contact Us By Email: <a href="mailto:10865080@uvu.edu">Nathan Bartholomew</a></p>
+			<p>This web site has been created soley for educational purposes.</p>
+	
+	</footer>
+
+</body>
+</html>
