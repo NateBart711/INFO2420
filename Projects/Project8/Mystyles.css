@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-color: #FFE4A5;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: medium;
+		color: #FFFCFC;
+}
+
+header {
+		width: 900px;
+		height: 200px;
+		border:3px solid #8E8989;
+		background-color: #D7A453;
+		text-align: center;
+		padding-top: 10px;
+		margin: auto;	
+}
+
+section {
+		width: 900px;
+		background-image: url("Images/2colback.jpg");
+		background-repeat: repeat-y;
+		overflow: hidden;
+		margin: auto;
+		border:3px solid #8E8989;
+}
+
+nav {
+		float: left;
+		width: 250px;
+}
+
+article {
+		float: left;
+		width: 650px;
+		text-align: center;
+}
+
+footer {
+		text-align: center;
+		width: 900px;
+		height: 70px;
+		background-color: #D7A453;
+		margin: auto;
+		border:3px solid  #8E8989;
+		padding-bottom: 7px;
+}
+
+.logoleft {
+		float: left;
+		padding-top: 0px;
+		padding-left: 15px;
+}
+
+nav a:link {
+		border: 5px inset #000000;
+		background-color: #FFE4A5;
+		line-height: 250%;
+		font-weight: bold;
+		font-size: 35px;
+		color: #6271AF;
+		text-decoration: none;
+		text-align: center;
+		padding-left: 10px;
+		padding-top: 8px;
+		padding-right: 10px;
+		padding-bottom: 2px;
+		margin-left: 20px;
+		font-family: 'lamborgini-personal';
+}
+
+nav a:visited {
+	color: #6271AF;
+	border: 5px inset #000000;
+}
+
+nav a:hover {
+		color: #A45758;
+		border: 2.5px outset #FFFFFF;
+}
+
+h1 {
+	color: #7A61B0;
+	text-align: center;
+	font-size: xx-large;
+	font-family: 'lamborgini-personal';
+}
+h2 {color:#7A61B0;
+	text-align: right;
+	padding-right: 75px;
+	font-family: 'lamborgini-personal';}
+
+h3 {color:#293B83;
+	font-family: 'lamborgini-personal';}
+h4 {
+	color:#293B83;
+	font-family: 'lamborgini-personal';
+}
+
+p { color: #190102;
+	font-family: 'lamborgini-personal';
+	font-size: 16px;
+}
+
+.auto-style1 {
+	float: left;
+	height: 150px;
+	padding: 0px 15px 10px 30px;
+	margin-left: 1px;
+}
+
+@font-face {
+	font-family: 'lamborgini-personal';
+	src: url('../../fonts/lamborgini-personal.eot');
+	src: local('lamborgini-personal'), url('../../fonts/lamborgini-personal.ttf') format('truetype');
+	}
+
+@font-face	{
+				font-family: 'AustieBostKittenKlub';
+				src: url('../../fonts/AustieBostKittenKlub.eot');
+				src: local('AustieBostKittenKlub'), url('../../fonts/AustieBostKittenKlub.ttf') format('truetype');
+			}
+
+.bigger {font-size: 20px;}
+
+hr {
+	border-style: solid;
+	border-color: #8E8989;
+	border-width: 1.5px;
+}
+
+a:link	{
+			color: #9A53EA;
+		}
+a:visited	{
+			color: #EB4977;
+		}
+a:hover	{
+			color: #79E446;
+		}
+.left	{	float: left;
+			padding-left: 10px;
+			padding-right: 5px;
+			border: none;
+		}
+.right	{	float: right;
+			padding-left: 5px;
+			padding-right: 10px;
+			border: none;
+		}
+#header	{
+			margin-top: 0;
+			padding: 3em 1em 2em 1em;
+			text-align: center;
+		}
+h2.ucas {color:#7A61B0;
+	text-align: center;
+	padding-left: 50px;
+	font-family: 'lamborgini-personal';
+		}
+h2.about {
+	color:#7A61B0;
+	text-align: center;
+	
+	font-family: 'lamborgini-personal';}
+
+blockquote {
+	color: #190102;
+	font-family: 'lamborgini-personal';
+}
+table.center	{ text-align: center;
+		  margin: 0 auto;
+		  width: 600px;
+		}
+table, th, td     {	
+					width:33%;
+					border:	3px solid #544E61;
+					border-collapse: separate;
+					border-spacing: 6px;
+					border-radius: 10px;
+					padding: 8px;
+					background-color:#D8B76A;
+					color:black;
+				  }
+caption		{
+				font-family:'lamborgini-personal';
+				font-weight: bold;
+				font-size: 40px;
+				color: #6271AF;
+				background-color:#85BAA1;
+				border-radius: 10px;
+				border: 2px solid #544E61;
+				height: 40px;
+				text-align: center;
+				width:100%;
+			}
+td 	{
+		color:black;
+		background-color:#DFECE5;
+		font-size: 20px;
+		width: 33%;
+	}
+th	{
+		border: 3px solid black;
+		padding:5px;
+		border-radius: 5px;
+		font-size: 20px;
+		width: 33%;
+	}
+td.animals 	{
+				background-color:#CEEDDB;
+			}
+th.headings {
+				background-color:#85BAA1;
+			}
+img.centering {
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h2.middle{
+	 text-align: center;
+		  margin: 0 auto;
+		  width: 700px;
+	font-family: 'AustieBostKittenKlub';
+	font-size: 50px;
+}
+li {
+	color: #190102;
+	font-family: 'lamborgini-personal';
+	text-align: left;
+}
